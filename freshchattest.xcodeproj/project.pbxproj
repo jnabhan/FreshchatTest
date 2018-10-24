@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9105A7182180BABC001C4737 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9105A7172180BABC001C4737 /* AssetsLibrary.framework */; };
+		9105A71B2180BAE9001C4737 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9105A70F2180ACB2001C4737 /* AVFoundation.framework */; };
+		9105A71D2180BB0D001C4737 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9105A71C2180BB0D001C4737 /* CoreData.framework */; };
+		9105A7212180BB4C001C4737 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9105A7202180BB4C001C4737 /* AudioToolbox.framework */; };
+		9105A7232180BB6A001C4737 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9105A7222180BB6A001C4737 /* CoreMedia.framework */; };
+		9105A7282180BD47001C4737 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9105A7192180BAD5001C4737 /* Photos.framework */; };
+		9105A72E2180BE64001C4737 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9105A7152180BA79001C4737 /* SystemConfiguration.framework */; };
+		91685880218099A20000BFA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9168587F218099A20000BFA1 /* AppDelegate.swift */; };
+		91685882218099A20000BFA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91685881218099A20000BFA1 /* ViewController.swift */; };
+		91685885218099A20000BFA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91685883218099A20000BFA1 /* Main.storyboard */; };
+		91685887218099A50000BFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91685886218099A50000BFA1 /* Assets.xcassets */; };
+		9168588A218099A50000BFA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91685888218099A50000BFA1 /* LaunchScreen.storyboard */; };
+		9168589A21809A5F0000BFA1 /* FCLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9168589321809A5F0000BFA1 /* FCLocalization.bundle */; };
+		9168589B21809A5F0000BFA1 /* FCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9168589421809A5F0000BFA1 /* FCResources.bundle */; };
+		9168589C21809A5F0000BFA1 /* FreshchatModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9168589521809A5F0000BFA1 /* FreshchatModels.bundle */; };
+		9168589E21809A5F0000BFA1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9168589821809A5F0000BFA1 /* LICENSE */; };
+		9168589F21809A5F0000BFA1 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9168589921809A5F0000BFA1 /* ReleaseNotes.txt */; };
+		916858A22180A4010000BFA1 /* libFDFreshchatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9168589721809A5F0000BFA1 /* libFDFreshchatSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9105A70D2180ACA8001C4737 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9105A70F2180ACB2001C4737 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9105A7152180BA79001C4737 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9105A7172180BABC001C4737 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9105A7192180BAD5001C4737 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		9105A71C2180BB0D001C4737 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9105A71E2180BB28001C4737 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		9105A7202180BB4C001C4737 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9105A7222180BB6A001C4737 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9105A7242180BCEE001C4737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9105A7262180BD30001C4737 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9105A72A2180BD96001C4737 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9105A72C2180BE00001C4737 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		9168587C218099A20000BFA1 /* freshchattest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freshchattest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9168587F218099A20000BFA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91685881218099A20000BFA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91685884218099A20000BFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91685886218099A50000BFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91685889218099A50000BFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9168588B218099A50000BFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9168589321809A5F0000BFA1 /* FCLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FCLocalization.bundle; sourceTree = "<group>"; };
+		9168589421809A5F0000BFA1 /* FCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FCResources.bundle; sourceTree = "<group>"; };
+		9168589521809A5F0000BFA1 /* FreshchatModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FreshchatModels.bundle; sourceTree = "<group>"; };
+		9168589621809A5F0000BFA1 /* FreshchatSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreshchatSDK.h; sourceTree = "<group>"; };
+		9168589721809A5F0000BFA1 /* libFDFreshchatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDFreshchatSDK.a; sourceTree = "<group>"; };
+		9168589821809A5F0000BFA1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9168589921809A5F0000BFA1 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		916858A021809C5A0000BFA1 /* freshchattest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "freshchattest-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91685879218099A20000BFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9105A72E2180BE64001C4737 /* SystemConfiguration.framework in Frameworks */,
+				9105A7282180BD47001C4737 /* Photos.framework in Frameworks */,
+				9105A7232180BB6A001C4737 /* CoreMedia.framework in Frameworks */,
+				9105A7212180BB4C001C4737 /* AudioToolbox.framework in Frameworks */,
+				9105A71D2180BB0D001C4737 /* CoreData.framework in Frameworks */,
+				9105A71B2180BAE9001C4737 /* AVFoundation.framework in Frameworks */,
+				9105A7182180BABC001C4737 /* AssetsLibrary.framework in Frameworks */,
+				916858A22180A4010000BFA1 /* libFDFreshchatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91685873218099A20000BFA1 = {
+			isa = PBXGroup;
+			children = (
+				9168587E218099A20000BFA1 /* freshchattest */,
+				9168587D218099A20000BFA1 /* Products */,
+				916858A12180A4010000BFA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9168587D218099A20000BFA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9168587C218099A20000BFA1 /* freshchattest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9168587E218099A20000BFA1 /* freshchattest */ = {
+			isa = PBXGroup;
+			children = (
+				9168589121809A240000BFA1 /* SupportingFiles */,
+				9168587F218099A20000BFA1 /* AppDelegate.swift */,
+				91685881218099A20000BFA1 /* ViewController.swift */,
+				91685883218099A20000BFA1 /* Main.storyboard */,
+				91685886218099A50000BFA1 /* Assets.xcassets */,
+				91685888218099A50000BFA1 /* LaunchScreen.storyboard */,
+				9168588B218099A50000BFA1 /* Info.plist */,
+				916858A021809C5A0000BFA1 /* freshchattest-Bridging-Header.h */,
+			);
+			path = freshchattest;
+			sourceTree = "<group>";
+		};
+		9168589121809A240000BFA1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9168589221809A5F0000BFA1 /* FreshchatSDK */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9168589221809A5F0000BFA1 /* FreshchatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9168589321809A5F0000BFA1 /* FCLocalization.bundle */,
+				9168589421809A5F0000BFA1 /* FCResources.bundle */,
+				9168589521809A5F0000BFA1 /* FreshchatModels.bundle */,
+				9168589621809A5F0000BFA1 /* FreshchatSDK.h */,
+				9168589721809A5F0000BFA1 /* libFDFreshchatSDK.a */,
+				9168589821809A5F0000BFA1 /* LICENSE */,
+				9168589921809A5F0000BFA1 /* ReleaseNotes.txt */,
+			);
+			path = FreshchatSDK;
+			sourceTree = "<group>";
+		};
+		916858A12180A4010000BFA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9105A72C2180BE00001C4737 /* PhotosUI.framework */,
+				9105A72A2180BD96001C4737 /* ImageIO.framework */,
+				9105A7262180BD30001C4737 /* CoreImage.framework */,
+				9105A7242180BCEE001C4737 /* UIKit.framework */,
+				9105A7222180BB6A001C4737 /* CoreMedia.framework */,
+				9105A7202180BB4C001C4737 /* AudioToolbox.framework */,
+				9105A71E2180BB28001C4737 /* CoreAudio.framework */,
+				9105A71C2180BB0D001C4737 /* CoreData.framework */,
+				9105A7192180BAD5001C4737 /* Photos.framework */,
+				9105A7172180BABC001C4737 /* AssetsLibrary.framework */,
+				9105A7152180BA79001C4737 /* SystemConfiguration.framework */,
+				9105A70F2180ACB2001C4737 /* AVFoundation.framework */,
+				9105A70D2180ACA8001C4737 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9168587B218099A20000BFA1 /* freshchattest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9168588E218099A50000BFA1 /* Build configuration list for PBXNativeTarget "freshchattest" */;
+			buildPhases = (
+				91685878218099A20000BFA1 /* Sources */,
+				91685879218099A20000BFA1 /* Frameworks */,
+				9168587A218099A20000BFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freshchattest;
+			productName = freshchattest;
+			productReference = 9168587C218099A20000BFA1 /* freshchattest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91685874218099A20000BFA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					9168587B218099A20000BFA1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 91685877218099A20000BFA1 /* Build configuration list for PBXProject "freshchattest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91685873218099A20000BFA1;
+			productRefGroup = 9168587D218099A20000BFA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9168587B218099A20000BFA1 /* freshchattest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9168587A218099A20000BFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9168589F21809A5F0000BFA1 /* ReleaseNotes.txt in Resources */,
+				9168588A218099A50000BFA1 /* LaunchScreen.storyboard in Resources */,
+				91685887218099A50000BFA1 /* Assets.xcassets in Resources */,
+				91685885218099A20000BFA1 /* Main.storyboard in Resources */,
+				9168589E21809A5F0000BFA1 /* LICENSE in Resources */,
+				9168589A21809A5F0000BFA1 /* FCLocalization.bundle in Resources */,
+				9168589B21809A5F0000BFA1 /* FCResources.bundle in Resources */,
+				9168589C21809A5F0000BFA1 /* FreshchatModels.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91685878218099A20000BFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91685882218099A20000BFA1 /* ViewController.swift in Sources */,
+				91685880218099A20000BFA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91685883218099A20000BFA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91685884218099A20000BFA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91685888218099A50000BFA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91685889218099A50000BFA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9168588D218099A50000BFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-v",
+					"-all_load",
+				);
+				OTHER_SWIFT_FLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "freshchattest/freshchattest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91685890218099A50000BFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 223XTZ2F8W;
+				INFOPLIST_FILE = freshchattest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/freshchattest/SupportingFiles/FreshchatSDK",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnabhan.freshchattest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "freshchattest/freshchattest-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91685877218099A20000BFA1 /* Build configuration list for PBXProject "freshchattest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9168588D218099A50000BFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9168588E218099A50000BFA1 /* Build configuration list for PBXNativeTarget "freshchattest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91685890218099A50000BFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91685874218099A20000BFA1 /* Project object */;
+}
